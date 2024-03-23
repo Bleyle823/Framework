@@ -1,10 +1,10 @@
 "use server";
 
 import { Liveblocks } from "@liveblocks/node";
-import { prisma } from "@/lib/prisma";
+//import { prisma } from "@/lib/prisma";
 import { cookies } from "next/headers";
 import test from "node:test";
-import { currentUser } from "@clerk/nextjs";
+//import { currentUser } from "@clerk/nextjs";
 
 const API_KEY: string = process.env.LIVEBLOCKS_SECRET_KEY || "";
 const liveblocks = new Liveblocks({
